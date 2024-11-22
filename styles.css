@@ -1,3 +1,43 @@
+/* General Reset */
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+#left-section {
+  position: fixed;
+  width: 40%;
+  height: 100%;
+  font-family: Norse, sans-serif;
+  color: white;
+}
+
+.branding {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  height: 100%;
+  background: transparent;
+}
+
+.logoname {
+  display: flex;
+  align-items: center;
+  margin: 30% 0 70% 0;
+  padding: 0 30% 0 30%;
+  font-size: 7vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  z-index: 1;
+}
+
+.logo {
+  max-height: 7vw;
+}
+
+.sideimg {
+  position: fixed;
+  width: 40%;
+  height: 100%;
 }
