@@ -1,4 +1,3 @@
-/* General Reset */
 * {
   margin: 0;
   padding: 0;
@@ -26,18 +25,60 @@
   align-items: center;
   margin: 30% 0 70% 0;
   padding: 0 30% 0 30%;
-  font-size: 6vh;
+  font-size: 1.5em;
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   z-index: 1;
 }
 
 .logo {
-  max-height: 7vw;
+  max-height: 70px;
 }
 
 .sideimg {
   position: fixed;
   width: 40%;
   height: 100%;
+}
+
+#right-section {
+  margin-left: 40%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#first-rsec {
+  height: 35%;
+  background-color: whitesmoke;
+  padding: 80px 65px 20px 20px;
+  font-weight: bold;
+}
+
+#first-rsec p {
+  padding: 12px 0;
+}
+
+#second-rsec {
+  height: 30%;
+  padding: 20px;
+  background-color: white;
+}
+
+#third-rsec {
+  height: 35%;
+  padding: 20px;
+  background: whitesmoke;
+}
+
+button {
+  color: white;
+  padding: 8px 30px;
+  background: #596d48;
+  border: none;
+  border-radius: 5px;
+}
+
+a {
+  color: #596d48;
+  text-decoration: none;
 }
