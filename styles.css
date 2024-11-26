@@ -64,6 +64,10 @@
   background-color: white;
 }
 
+label {
+  font-size: 10px;
+}
+
 #third-rsec {
   height: 35%;
   padding: 20px;
