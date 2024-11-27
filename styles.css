@@ -65,7 +65,12 @@
 }
 
 label {
-  font-size: 10px;
+  font-size: 8px;
+}
+
+input {
+  padding: 5px 15px 5px 5px;
+  margin: 10px;
 }
 
 #third-rsec {
@@ -80,6 +85,7 @@ button {
   background: #596d48;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 a {

@@ -26,46 +26,62 @@
           </p>
           <p><em>You know you want to.</em></p>
         </div>
-        <div id="second-rsec">
-          <p>Let's do this!</p>
-          <label>FIRST NAME</label>
-          <input
-            type="name"
-            name="First Name"
-            placeholder=" Enter your firstname"
-          />
-          <label>LAST NAME</label>
-          <input
-            type="name"
-            name="last Name"
-            placeholder=" Enter your lastname"
-          />
-          <label>EMAIL</label>
-          <input
-            type="email"
-            name="E-mail"
-            placeholder=" Enter your email"
-          /><label>PHONE NUMBER</label>
-          <input
-            type="number"
-            name="Phone number"
-            placeholder=" Enter your phone number"
-          /><label>PASSWORD</label>
-          <input
-            type="password"
-            name="Password"
-            placeholder=" Enter Password"
-          /><label>COMFIRM PASSWORD</label>
-          <input
-            type="password"
-            name="Password"
-            placeholder=" Comfirm Password"
-          />
-        </div>
-        <div id="third-rsec">
-          <button type="submit">Create Account</button>
-          <p>Already have an account? <a href="#">Log in</a></p>
-        </div>
+        <form>
+          <div id="second-rsec">
+            <p>Let's do this!</p>
+            <div class="form-row">
+              <label>FIRST NAME</label>
+              <input
+                type="text"
+                name="First Name"
+                placeholder="First Name"
+                required
+              />
+              <label>LAST NAME</label>
+              <input
+                type="text"
+                name="last Name"
+                placeholder="Last Name"
+                required
+              />
+            </div>
+            <div class="form-row">
+              <label>EMAIL</label>
+              <input
+                type="email"
+                name="E-mail"
+                placeholder=" Email"
+                required
+              /><label>PHONE NUMBER</label>
+              <input
+                type="tel"
+                name="Phone number"
+                max="11"
+                placeholder="Phone Number"
+                required
+              />
+            </div>
+            <div class="form-row">
+              <label>PASSWORD</label>
+              <input
+                type="password"
+                name="Password"
+                placeholder="Password"
+                required
+              /><label>COMFIRM PASSWORD</label>
+              <input
+                type="password"
+                name="Password"
+                placeholder="Comfirm Password"
+                required
+              />
+            </div>
+          </div>
+          <div id="third-rsec">
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+          </div>
+        </form>
       </div>
     </div>
   </body>
