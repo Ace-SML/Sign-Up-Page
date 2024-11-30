@@ -97,15 +97,11 @@ input {
 }
 
 input:focus {
-  border-color: #6a994e;
+  border-color: #e5e7eb;
   outline: none;
 }
 
-input:valid {
-  border-color: blue;
-}
-
-input:invalid {
+.password:invalid {
   border-color: red;
 }
 
